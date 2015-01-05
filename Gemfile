@@ -19,6 +19,8 @@ gem "bcrypt"
 gem "aws-sdk"
 gem "aescrypt"
 gem 'rails_12factor', group: :production
+gem 'unicorn'
+gem 'rack-timeout'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
